@@ -1,0 +1,15 @@
+programa {
+
+  inteiro num
+
+  funcao inicio() {
+  escreva("Digite um valor: \n")
+  leia (num)
+
+  se (num >= 350 e num <= 500){
+    escreva("Seu número está entre 350 e 500.")
+  } senao{
+      escreva("Não está entre 350 e 500.")
+    }
+  }
+}
