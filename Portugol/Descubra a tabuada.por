@@ -8,7 +8,7 @@ programa {
     leia(valor)
     para(i = 0; i <= 10; i++){
       resultado = i*(valor)      
-      escreva("\n A tabuada do 5 é : \n" + resultado)
+      escreva(valor, " x "+ i +" = " +resultado + "\n")
       
     }  
   }
