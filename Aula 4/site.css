@@ -1,0 +1,145 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+#topoPorcento{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+}
+#container{
+    width: 980px;
+    height: 100;
+    /*background-color: coral;*/
+    margin:auto;
+    
+}
+
+#logo{
+    width: 300px;
+    height: 100;
+  /*  background-color:black;*/
+    float: left;
+
+}
+#logo img{
+    width: 100px;
+    margin:0px 1px 10px 90px;
+}
+
+#menu{
+    width: 680px;
+    height: 60px;
+    /*background-color:silver;*/
+    float: right;
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+#menu a{
+    /*color: blueviolet;*/
+    text-decoration: none;
+}
+#menu a:hover{
+    color: blue;
+    
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    /*background-color:blue;*/
+    margin:auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background-image: url('bannersenac.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#segundo{
+    width: 980px;
+    height: auto;
+   /*background-color: coral;*/
+    margin:auto;    
+}
+.imagemEmpresa{
+    width: 250px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.imagemProduto{
+    width: 300px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.imagemServiços{
+    width: 300px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+#esquerdo{
+    width: 400px;
+    height: auto;
+   /*background-color: pink;*/
+    float: left;
+    text-align: justify;
+}
+
+#esquerdo h1{
+    font-size: 20px;
+    padding-left: 20px;
+    /*color:rgb(86, 0, 133);*/
+}
+
+#direito{
+    width: 400px;
+    height: auto;
+    /*background-color:red;*/
+    float: right;
+    text-align: justify;
+}
+
+#direito h1{
+    font-size: 20px;
+    padding-left: 20px;
+    color:rgb(195, 223, 9);
+}
+
+#rodape{
+    width: 980px;
+    height: 40;
+    background-color:black;
+    margin: auto;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+#rodapePorcento{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    clear: both;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    border: 0px;
+}
